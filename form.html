@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+
+
+    <div class="jumbotron">
+        <div class="container"><h1>Registration</h1></div>
+    </div>
+
+
+    <div class="container">
+
+            <form class="form" method="post" action="formaction.php">
+                <div class="form-group">
+                    <label for="uname">Name:</label>
+                    <input id="uname" class="form-control" type="text" name="uname" autocomplete="off" required placeholder="Ex: John">
+                </div><br>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input id="email" class="form-control" type="email" name="email" autocomplete="off" required placeholder="example@mail.com">
+                </div><br>
+                
+                <div class="form-group">
+                    <label for="cars">Choose Year:</label><br>
+                    <select name="years" id="cars" class="form-contol">
+                        <option value="I">I</option>
+                        <option value="II">II</option>
+                        <option value="III">III</option>
+                        <option value="IV">IV</option>
+                    </select>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="rno">Roll No:</label>
+                    <input id="rno" class="form-control" type="text" name="rno" autocomplete="off" required placeholder="175013">
+                </div><br>
+
+                <div class="form-group">
+                    <label for="dept">Department:</label>
+                    <input id="dept" class="form-control" type="text" name="dept" autocomplete="off" required placeholder="Ex: IT">
+                </div><br>
+
+                <center><button class="btn btn-primary" name="submit" type="submit">Register</button></center><br>
+
+            </form>
+    </div>
+</body>
+</html>

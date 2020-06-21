@@ -1,0 +1,55 @@
+.jumbotron{
+    background-color: #0075FF;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    text-align: center;
+    color: white;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+}
+
+.form{
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 0px rgba(32, 33, 36, 0.1);
+    padding: 10px 15px;
+
+}
+
+.form:hover{
+    transition: 0.8s;
+    box-shadow: 1px 1px 16px 0px rgba(32, 33, 36, 0.3);
+
+}
+
+label{
+    font-size: 20px;
+    font-family: Roboto,        sans-serif;
+   
+}
+
+#cars{
+    width: 100%;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+    padding: 6px 12px;
+    background-color: #fff;
+}
+
+#cars:focus{
+    border-color: #80BDFF;
+    border: outset 2px #80BDFF;
+}
+
+
+option:hover{
+    background-color: #0075FF;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+::placeholder{
+    font-size: 14px;
+}

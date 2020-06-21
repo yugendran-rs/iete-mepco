@@ -1,0 +1,99 @@
+p{
+    font-size: 18px;
+}
+
+.jumbotron {
+    color: white;
+    background: #0075FF;
+    border-top-left-radius: none;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    text-align: center;
+}
+
+.jumbotron h1{
+    font-size: 50px;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+}
+
+p.badge{
+    background-color: #c6cbef;
+}
+
+li{
+    font-size: 18px;
+}
+
+h2{
+    font-family: roboto, sans-serif;
+}
+
+.desc-content{
+    text-indent: 30px;
+    /* font-family: 'Open sans', sans-serif; */
+}
+
+.model-content{
+    text-indent: 10px;
+}
+
+.rule{
+    padding: 7px;
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: inline-block;
+}
+ 
+.story-head{
+    text-align: center;
+    font-family: Lato, sans-serif;
+}
+
+.story{
+    box-shadow: 1px 1px 10px 0 rgba(32, 33, 36, 0.2);
+    border-radius: 15px;
+    border-bottom: 10px;
+}
+
+.story:hover{
+    transition: 0.5s;
+    box-shadow: 1px 2px 25px 0 rgba(32, 33, 50, 0.4);
+}
+
+.story-title {
+    padding: 10px;
+    background-color: #0075FF;
+    border-radius: 0px 15px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: Lato,sans-serif;
+}
+
+.story-content{
+    padding: 15px 15px 0px;
+}
+
+.story p{
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.form-group label{
+    font-size: 18px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border-bottom: 2px solid #0075FF;
+}
+
+input[type="submit"]{
+    display: inline-block;
+    max-width: 100px;
+}
+
+body{
+    padding-bottom: 10px;
+}

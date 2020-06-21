@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        body{
+            padding: 10px;
+        }
+        .login{
+            margin-top: 33%;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 15px 0 rgba(32, 33, 36, 0.1);
+        }
+
+        .login:hover{
+            transition: 1s;
+            box-shadow:inset 1px 1px 10px 0 rgba(32, 33, 36, 0.1);
+        }
+
+        h2{
+            font-family: Lato, sans-serif;
+        }
+
+        image{
+            width: 100px;
+        }
+        @media only screen and (max-width: 600px) {
+            .login {
+                margin-top: 60px;
+            }
+            img{
+                margin-top: 30px;
+                align-items: center;
+                width: 240px;
+            }
+        }
+        @media only screen and (min-width: 600px){
+            img{
+                margin-top: 30px;
+                width: 300px;
+            }
+            .container{
+                margin-top: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <center><img class="img-fluid" src="login.svg" alt=""></center>
+            </div>
+            <div class="col-sm-6">
+                <div class="login">
+                    <h2 class="login-title">EMAIL:</h2>
+                    <form method="post" action="#">
+                            <input id="my-input" class="form-control" placeholder="you@example.com" type="text" name="" autocomplete="off" required><br>
+                            <center><button class="btn btn-primary" type="submit">Login</button></center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
